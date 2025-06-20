@@ -6,7 +6,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-neutral-200;
   }
   
   html {
@@ -30,15 +30,15 @@
   }
   
   .btn-primary {
-    @apply btn bg-primary-500 hover:bg-primary-600 text-white shadow-lg hover:shadow-xl focus:ring-primary-500 px-6 py-3;
+    @apply btn bg-blue-500 hover:bg-blue-600 text-white shadow-lg hover:shadow-xl focus:ring-blue-500 px-6 py-3;
   }
   
   .btn-secondary {
-    @apply btn bg-secondary-500 hover:bg-secondary-600 text-white shadow-lg hover:shadow-xl focus:ring-secondary-500 px-6 py-3;
+    @apply btn bg-gray-500 hover:bg-gray-600 text-white shadow-lg hover:shadow-xl focus:ring-gray-500 px-6 py-3;
   }
   
   .btn-outline {
-    @apply btn border-2 border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white focus:ring-primary-500 px-6 py-3;
+    @apply btn border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white focus:ring-blue-500 px-6 py-3;
   }
   
   .btn-ghost {
@@ -46,7 +46,7 @@
   }
   
   .input-field {
-    @apply w-full px-4 py-3 border border-neutral-300 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all duration-200 bg-white;
+    @apply w-full px-4 py-3 border border-neutral-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all duration-200 bg-white;
   }
   
   .card {
